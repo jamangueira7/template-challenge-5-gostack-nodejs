@@ -1,9 +1,9 @@
-import AppError from '../errors/AppError';
 import { getCustomRepository, getRepository } from "typeorm";
 import TransactionsRepository from "../repositories/TransactionsRepository";
 
 import Category from "../models/Category";
 import Transaction from '../models/Transaction';
+import AppError from '../errors/AppError';
 
 interface Request {
   title: string;
